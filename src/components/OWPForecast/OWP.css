@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran");
+.forecast-view {
+  font-family: Catamaran;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 100vh; }
+  .forecast-view .city-name {
+    padding: 60px;
+    text-align: center; }
+    .forecast-view .city-name span {
+      color: #dddddd;
+      font-size: 36px; }
+  .forecast-view .forecast-days {
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    max-width: 844px; }
+
+.forecast {
+  background-color: #dddddd;
+  display: table-cell;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-right: 1px #fff solid; }
+  .forecast div {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    flex-grow: 1; }
+    .forecast div span {
+      color: #fff; }
+  .forecast .date {
+    text-align: center;
+    width: 200px;
+    padding-top: 2em; }
+    .forecast .date span {
+      font-size: 2em;
+      line-height: .75em;
+      color: #fff; }
+      .forecast .date span.time {
+        font-size: .5em; }
+  .forecast .weather {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px; }
+    .forecast .weather .owf {
+      color: #fff;
+      font-size: 72px;
+      text-shadow: 0 0 6px #898989; }
+    .forecast .weather span {
+      font-size: 14px; }
+  .forecast .temperature span {
+    font-size: 32px; }
+  .forecast .humidity span {
+    text-align: center;
+    font-size: 14px; }

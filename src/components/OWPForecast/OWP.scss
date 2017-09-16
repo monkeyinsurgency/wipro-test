@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+.forecast-view {
+  font-family: Catamaran;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  .city-name {
+    padding: 60px;
+    text-align: center;
+    span {
+      color: #dddddd;
+      font-size: 36px;
+    }
+  }
+  .forecast-days {
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    max-width: 844px;
+  }
+}
+
+.forecast {
+  background-color: #dddddd;
+  display: table-cell;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-right: 1px #fff solid;
+  div {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    flex-grow: 1;
+    span {
+      color: #fff;
+    }
+  }
+
+  .date {
+    text-align: center;
+    width: 200px;
+    padding-top: 2em;
+    span {
+      font-size: 2em;
+      line-height: .75em;
+      color: #fff;
+      &.time {
+        font-size: .5em;
+      }
+    }
+  }
+
+  .weather {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    .owf {
+      color: #fff;
+      font-size: 72px;
+      text-shadow: 0 0 6px #898989;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .temperature {
+    span {
+      font-size: 32px;
+    }
+  }
+
+  .humidity {
+    span {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
