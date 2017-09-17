@@ -2,8 +2,8 @@
 
 **To run**
 * Download or clone repo
-* run npm install
-* run npm start
+* `npm install`
+* `npm start`
 
 A browser will automatically open on port:3000 and the app will run locally.
 
