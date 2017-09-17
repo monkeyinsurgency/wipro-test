@@ -12,7 +12,7 @@ import './OWP.css';
   return newOrNot;
 };*/
 
-const FORECAST_ITEM = props => (
+const forecastItem = props => (
   <div className={`forecast ${props.date.format('M-DD')}`}>
     <div className="date">
       <span className="day">{props.date.format('D MMM YY')}<br /><span className="time">{props.date.format('ha')}</span></span>
@@ -31,4 +31,4 @@ const FORECAST_ITEM = props => (
   //<span><isNewDate date={props.date.format('D MMM YY')} /></span>
 );
 
-export default FORECAST_ITEM;
+export default forecastItem;

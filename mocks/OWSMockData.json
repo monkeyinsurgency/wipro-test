@@ -1,0 +1,49 @@
+{
+  "cod": "200",
+  "message": 0.0029,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1505714400,
+      "main": {
+        "temp": 5.69,
+        "temp_min": 5.69,
+        "temp_max": 5.69,
+        "pressure": 1023.13,
+        "sea_level": 1033.05,
+        "grnd_level": 1023.13,
+        "humidity": 100,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 56
+      },
+      "wind": {
+        "speed": 2.87,
+        "deg": 321.005
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2017-09-18 06:00:00"
+    }
+  ],
+  "city": {
+    "id": 2638864,
+    "name": "Saint Andrews",
+    "coord": {
+      "lat": 56.3387,
+      "lon": -2.7991
+    },
+    "country": "GB"
+  }
+}

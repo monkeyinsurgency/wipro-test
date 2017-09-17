@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> w data w config 1`] = `
+<div
+  className="forecast-view"
+>
+  <div
+    className="city-name"
+  >
+    <span>
+      5 Day Forecast for: 
+      St Andrews, UK
+    </span>
+  </div>
+  <div
+    className="Loading"
+  />
+</div>
+`;
+
+exports[`<App /> w data w/o config 1`] = `
+<div
+  className="forecast-view"
+>
+  <div
+    className="city-name"
+  >
+    <span>
+      5 Day Forecast for: 
+      St Andrews, UK
+    </span>
+  </div>
+  <div
+    className="Loading"
+  />
+</div>
+`;
+
+exports[`<App /> w/o data w config 1`] = `
+<div
+  className="forecast-view"
+>
+  <div
+    className="city-name"
+  >
+    <span>
+      5 Day Forecast for: 
+      St Andrews, UK
+    </span>
+  </div>
+  <div
+    className="Loading"
+  />
+</div>
+`;
+
+exports[`<App /> w/o data w/o config 1`] = `
+<div
+  className="forecast-view"
+>
+  <div
+    className="city-name"
+  >
+    <span>
+      5 Day Forecast for: 
+      St Andrews, UK
+    </span>
+  </div>
+  <div
+    className="Loading"
+  />
+</div>
+`;

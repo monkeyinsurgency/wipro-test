@@ -17,11 +17,9 @@ const ForecastView = props => (
     ) : (
       // would really have liked to have broken this into groups by day, but ran out of time.
       <div className="forecast-days">
-        <div className="forecast-container">
-          {props.forecast.map((item, index) => (
-            <Item key={index} {...item} />
-          ))}
-        </div>
+        {props.forecast.map((item, index) => (
+          <Item key={index} {...item} />
+        ))}
       </div>
     )}
   </div>

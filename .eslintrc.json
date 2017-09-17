@@ -1,6 +1,9 @@
 {
   "root": true,
   "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
   // https://github.com/babel/babel-eslint
   "env": {
     // http://eslint.org/docs/user-guide/configuring.html#specifying-environments

@@ -1,4 +1,5 @@
 import qs from 'qs';
+import 'isomorphic-fetch';
 
 const apiToken = '0e4849cc20080bf7a601c708c7954ae8';
 const apiUrl = 'http://api.openweathermap.org/data/2.5';
